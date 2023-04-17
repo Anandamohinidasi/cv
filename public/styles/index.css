@@ -64,17 +64,4 @@ p, li, span, div {
 }
 #cv-body #right-section {
   padding: 2%;
-}
-#cv-body #right-section .experience-container .experience-title {
-  display: flex;
-}
-#cv-body #right-section .experience-container .experience-title .experience-company {
-  margin-right: 5px;
-}
-#cv-body #right-section .experience-container .experience-title .experience-location {
-  color: rgba(103, 101, 101, 0.5411764706);
-}
-#cv-body #right-section .experience-container p.experience-highlight {
-  color: #666567;
-  margin-top: 10px;
 }/*# sourceMappingURL=index.css.map */

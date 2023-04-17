@@ -1,0 +1,16 @@
+.experience-title {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    .experience-company {
+        margin: 5px 5px 5px 0;
+    }
+    .experience-location {
+        color: #6765658a;
+    }
+}
+p.experience-highlight {
+    color: #666567;
+    margin-top: 10px;
+    max-width: 500px;
+}

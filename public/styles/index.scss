@@ -65,23 +65,5 @@ p, li, span, div {
     }
     #right-section {
         padding: 2%;
-        .experience-container {
-            .experience-title {
-                display: flex;
-                .experience-company {
-                    margin-right: 5px;
-                }
-                .experience-location {
-                    // color: #999999;
-                    // color: #9f9da1;
-                    color: #6765658a;
-                }
-            }
-            p.experience-highlight {
-                color: #666567;
-                margin-top: 10px;
-            }
-        }
-
     }
 }
