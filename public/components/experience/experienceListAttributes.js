@@ -1,0 +1,1 @@
+export const experienceListAttributes = ["company", "location", "position", "duration", "highlights"];

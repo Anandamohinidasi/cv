@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main id="cv-body">
+            <section id="left-section">
+                <div class="contact-icons-container">
+                    <a href="https://www.linkedin.com/in/anandarodrigues/"  class="contact-icons"><image id="linkedin" src="./images/linkedin.jpeg"/></a>
+                    <a href="mailto:ananda.mohini.dasi@hotmail.com" class="contact-icons"><image id="mail"  src="./images/email.png"/></a>
+                    <a href="https://github.com/Anandamohinidasi" class="contact-icons"><image id="github" src="./images/github.png"/></a>
+                </div>
+                <div class="profile-picture-container"></div>
+                <section id="me">
+                    <h1 id="name">Ananda Rodrigues</h1>
+                    <h2 id="title">Senior Software Engineer</h2>
+                </section>
+                <section class="skills">
+                    <h3 class="sub-title">
+                        Skills Highlight
+                    </h3>
+                    <ul id="skills-list" class="list"></ul>
+                </section>
+                <section class="skills">
+                    <h3 class="sub-title">
+                        Languages
+                    </h3>
+                    <ul id="languages-list" class="list"></ul>
+                </section>
+            </section>
+            <section id="right-section">
+                <template id="experience-template" class="experience-container">
+                    <div class="experience-title">
+                        <h3 class="experience-company" id="company"></h3>
+                        <span class="experience-location" id="location">- </span>
+                    </div>
+                    <div class="experience-position" id="position"></div>
+                    <div class="experience-duration" id="duration"></div>
+                    <p class="experience-highlight" id="highlights">
+                        Highlights:
+                    </p>
+                </template>
+            </section>
+        </main>
+        <script type="module" src="./components/experience/experienceComponent.js"></script>
+        <script type="module" src="./components/experience/experience.js"></script>
+        <script type="module" src="./components/skills/skills.js"></script>
+    </body>
+</html>
